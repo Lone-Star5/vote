@@ -4,7 +4,7 @@ pipeline {
             label 'python-buildkit-agent'
             defaultContainer 'jnlp'
             yaml """
-apiVersion: v2
+apiVersion: v1
 kind: Pod
 spec:
   containers:
